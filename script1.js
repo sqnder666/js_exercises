@@ -1,1 +1,5 @@
-alert('test1');
+"use strict";
+alert('test1');// комментарий
+/*
+	комментарий
+*/
