@@ -1,8 +1,4 @@
 "use strict";
-// exr1
-let a = -100;
-alert(a);
-
-// exr2
-let b = 666;
-alert(-b);
+let a = 13;
+let b = 5;
+alert(a % b);
