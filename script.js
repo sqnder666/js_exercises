@@ -1,9 +1,12 @@
 "use strict";
 
-let ok = confirm('пудж?');
+let age = 17;
+let adult;
 
-if (ok) {
-	document.write('пудж');
+if (age >= 18) {
+	adult = true;
 } else {
-	document.write('не пудж');
+	adult = false;
 }
+
+document.write(adult);
